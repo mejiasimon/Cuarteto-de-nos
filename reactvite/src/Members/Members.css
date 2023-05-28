@@ -1,0 +1,58 @@
+.container-Members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.tarjeta{
+    width: 20%;
+    height: 500px;
+}
+.tarjeta>img{
+width: 100%;
+height: 100%;
+}
+.tarjeta:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container-tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Members-text{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 3.125rem;
+    text-decoration: none;
+}
+.members{
+    text-align: center;
+    background-color:rgb(194, 194, 163)
+    hsl(60, 20%, 70%);
+    padding-bottom: 100px;
+}
+#primero{
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+}
+#segundo{
+    --animate-duration: 2s;
+    --animate-delay: 2s;
+}
+#tercero{
+    --animate-duration: 3s;
+    --animate-delay: 3s;
+}
+#cuarto{
+    --animate-duration: 4s;
+    --animate-delay: 4s;
+}
+#quinto{
+    --animate-duration: 5s;
+    --animate-delay: 5s;
+}
