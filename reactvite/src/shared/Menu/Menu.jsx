@@ -7,7 +7,8 @@ export function Menu(){
     <>
 <div>
   <input type="checkbox" id="active" />
-  <label htmlFor="active" className="menu-btn"><i className="fas fa-bars" /></label>
+  <label for="active" className="menu-btn"><span></span></label>
+  
   <div className="wrapper">
     <ul>
       <li><Link className="nav-link" to="/tienda">tienda</Link></li>
